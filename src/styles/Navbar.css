@@ -1,0 +1,55 @@
+.navbar{
+    display:grid;
+    grid-template-columns: repeat(2, 50%);
+    height: 5%;
+    background-color: black;
+}
+.navbar img{
+ width: 10%;   
+}
+.navbar .leftSide{
+    display: block;
+    text-align: left;
+    margin-left: 5em;
+    margin-top: .3em;
+}
+.navbar .rightSide{
+    text-align: center;
+    margin-top: 1.5em;
+}
+.navbar a{
+    color: white;
+    margin-left: 2em;
+    text-decoration: none;
+}
+
+@media(min-width:730px){
+    button{
+        visibility: hidden;
+    }
+}
+@media(max-width:730px){
+    .navbar .leftSide{
+        display: block;
+        text-align: left;
+        margin-left: .2em;
+        margin-top: .3em;
+    }
+    .navbar #hide{
+        display: none;
+        visibility: hidden;
+    }
+    .navbar .rightSide{
+        text-align: right;
+        margin-left: .2em;
+        margin-top: .3em;
+    }
+    .navbar #open{
+        display: none;
+    }
+    .navbar #show{
+        display:block;
+        visibility: visible;
+    }
+
+}

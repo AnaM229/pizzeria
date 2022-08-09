@@ -1,0 +1,12 @@
+.footer{
+    background-color:black;
+    color:white;
+    margin:0;
+    padding:2em;
+}
+
+svg{
+    color:white;
+    cursor: pointer;
+    padding: .3em;
+}

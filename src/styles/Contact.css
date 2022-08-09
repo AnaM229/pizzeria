@@ -1,0 +1,14 @@
+.contact{
+    display:grid;
+    grid-template-columns: repeat(2,50%);
+
+}
+form{
+    text-align: center;
+}
+label{display: block;}
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

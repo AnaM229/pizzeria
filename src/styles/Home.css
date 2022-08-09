@@ -1,0 +1,15 @@
+.headerContainer{
+    color:white;
+    padding: 7em;
+}
+
+.headerContainer a{
+    border: 2px solid black;
+    color:black;
+    background-color: white;
+    text-decoration: solid;
+    padding: .3em;
+}
+.headerContainer p{
+    text-decoration: solid;
+}
